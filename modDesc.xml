@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+    <author>WPCom</author>
+    <version>1.0</version>
+    <title>
+        <en>WPToolKit</en>
+    </title>
+    <description>
+<en>
+<![CDATA[Test Class
+
+Changelog 
+V1.0 - Created]]>
+</en>
+    </description>
+    <iconFilename>icon_WP.dds</iconFilename>
+    <multiplayer supported="true"/>
+     <extraSourceFiles>
+        <sourceFile filename="WPToolKit.lua"/>
+    </extraSourceFiles>
+</modDesc>
