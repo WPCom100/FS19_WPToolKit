@@ -1,21 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="53">
+<modDesc descVersion="3">
+
     <author>WPCom</author>
-    <version>1.0</version>
+
+    <version>1.1</version>
+
     <title>
         <en>WPToolKit</en>
     </title>
+
     <description>
 <en>
-<![CDATA[Test Class
+<![CDATA[A collection of tools for Farming Simulator 2019, used on a private game server.
 
 Changelog 
-V1.0 - Created]]>
+V1.1 -  Added strong farmer
+        Night cycle skip function now resumes on game relog.
+V1.0 -  Created]]>
 </en>
     </description>
+
     <iconFilename>icon_WP.dds</iconFilename>
+
     <multiplayer supported="true"/>
+
      <extraSourceFiles>
         <sourceFile filename="WPToolKit.lua"/>
     </extraSourceFiles>
+
+  <l10n>
+    <text name="input_STRONGFARMER">
+      <en>WP:Strong Farmer</en>
+    </text>
+  </l10n>
+
+  <actions>
+    <action name="STRONGFARMER"/>
+  </actions>
+
+  <inputBinding>
+    <actionBinding action="STRONGFARMER">
+      <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_1"/>
+    </actionBinding>
+  </inputBinding>
+  
 </modDesc>
